@@ -20,7 +20,6 @@ const RegisterScreen: React.FC = () => {
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-
   const handleRegister = async () => {
     try {
       setLoading(true);

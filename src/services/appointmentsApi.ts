@@ -1,4 +1,3 @@
-
 import { apiClient, API_ENDPOINTS } from './api';
 
 interface ApiAppointment {

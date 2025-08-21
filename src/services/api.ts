@@ -15,6 +15,7 @@ export const API_ENDPOINTS = {
   // Usuários
   USERS: '/usuarios',
   DOCTORS: '/usuarios/medicos',
+  CHANGE_PASSWORD: '/usuarios',  // NOVO ENDPOINT
   
   // Especialidades
   SPECIALTIES: '/especialidades',
@@ -22,7 +23,6 @@ export const API_ENDPOINTS = {
   // Consultas
   APPOINTMENTS: '/consultas',
 } as const;
-
 /**
  * Classe para fazer requisições HTTP à API
  */
